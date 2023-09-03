@@ -21,6 +21,7 @@ const projects = [
     ],
     image: horizonCover,
     github: "https://github.com/jyefuriii/banking",
+    siteUrl: "https://banking-app-by-jeff.vercel.app/",
   },
   {
     name: "DevFlow (Stack Overflow Clone)",
@@ -38,6 +39,7 @@ const projects = [
     ],
     image: devFlowImage,
     github: "https://github.com/jyefuriii/nextjs-devflow",
+    siteUrl: "https://banking-app-by-jeff.vercel.app/",
   },
   {
     name: "Pachi Exchange",
@@ -54,10 +56,11 @@ const projects = [
     ],
     image: pachiExchangeImage,
     github: "https://github.com/jyefuriii/Pachi-Exchange",
+    siteUrl: "https://banking-app-by-jeff.vercel.app/",
   },
 ];
 
-const ProjectCard = ({ name, description, techStack, image, github }) => (
+const ProjectCard = ({ name, description, techStack, image, github, siteUrl }) => (
   <div className="project-card">
     <img src={image} alt={name} className="project-image" />
     <div className="project-details">
@@ -77,6 +80,14 @@ const ProjectCard = ({ name, description, techStack, image, github }) => (
         className="github-link"
       >
         View GitHub Repo
+      </a>
+      <a
+        href={siteUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="github-link"
+      >
+        Live Site
       </a>
     </div>
   </div>
