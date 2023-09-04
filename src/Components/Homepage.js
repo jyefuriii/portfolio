@@ -35,18 +35,57 @@ function Homepage() {
                 </button>
             </div>
         </div>
-          <div>
-              <h1>My Tech Stack</h1>
-              <h3>Technologies I've been working with recently</h3>
+          <div className='homepage2'>
+              <h1 className='techstack_heading1'>My Tech Stack</h1>
+              <h3 className='techstack_heading3'>Technologies I've been working with recently</h3>
               <div className='techstack_icons'>
-                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/vscode-icons_file-type-html.svg')} alt=''/> 
-                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/vscode-icons_file-type-css.svg')} alt=''/> 
-                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/vscode-icons_file-type-js-official.svg')} alt=''/> 
-                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/logos_react.svg')} alt=''/> 
-                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/Vector.svg')} alt=''/> 
-                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/logos_bootstrap.svg')} alt=''/> 
+                  <div>
+                  < img className='techstack' src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/html5.226x256.png')} alt='' /> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/css3-original.225x256.png')} alt=''/> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/file-type-js-official.256x256.png')} alt=''/> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/reactjs.256x228.png')} alt=''/> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/vscode-icons_file-type-tailwind.png')} alt=''/> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/vscode.256x256.png')} alt=''/> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/postman-icon.png')} alt=''/> 
+                  </div>
               </div>
-        </div>
+              <div className='techstack_icons'>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/git.256x256.png')} alt=''/> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/github.256x250.png')} alt=''/> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/firebase.187x256.png')} alt=''/> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/navicat.png')} alt=''/> 
+                  </div>
+                  <div>
+                  < img className='techstack' src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/nodejs.256x157.png')} alt='' /> 
+                  </div>
+                  <div>
+                 < img className='techstack'src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/mongodb-original-wordmark.251x256.png')} alt=''/> 
+                  </div>
+              </div>
+          </div>
+          <div className='homepage3'>
+                <h1 className='experience_heading1'>Experience</h1>
+                <h3 className='experience_heading3'>Work and Educational Attainment</h3> 
+          </div>
       
     </div>
   )
