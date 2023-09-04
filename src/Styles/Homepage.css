@@ -4,7 +4,7 @@
     align-items:center;
     align-content: center;
     width: 100%;
-    height:123px;
+    height:100%;
     background:#fff;
 }
 .homepage1{
@@ -92,4 +92,8 @@
     padding:11px;
     color: #1a1a1a;
     border-radius: 2px;
+}
+
+.techstack_icons{
+    background:pink;
 }

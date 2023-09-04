@@ -5,7 +5,7 @@ import '../Styles/Header.css';
 function Header() {
   return (
     <div className='header'>
-      <img className='header_logo' src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/portfolio_logo.png')} alt='header_logo'/>
+      <img className='header_logo' src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/portfolio_logo.png')} alt='header_logo'/>
       <div className='header_nav'>
         <div className='header_option'>
           Home
