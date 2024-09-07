@@ -1,33 +1,51 @@
-import React from 'react';
-import { LightMode } from '@mui/icons-material';
-import '../Styles/Header.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "../Styles/Header.css";
 
 function Header() {
+  const handleScrollTo = (e, targetId) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    document.getElementById(targetId).scrollIntoView({
+      behavior: "smooth", // Smooth scrolling
+      block: "start", // Align to the top of the view
+    });
+  };
   return (
-    <div className='header'>
-      <img className='header_logo' src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/portfolio_logo.png')} alt='header_logo'/>
-      <div className='header_nav'>
-        <div className='header_option'>
+    <div className="header">
+      <img
+        className="header_logo"
+        src={require("/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/portfolio_logo.png")}
+        alt="header_logo"
+      />
+      <div className="header_nav">
+        <Link to="/" className="header_option">
           Home
-        </div>
-        <div className='header_option'>
-          About
-        </div> 
-        <div className='header_option'>
+        </Link>
+        <a
+          href="#techstack"
+          className="header_option"
+          onClick={(e) => handleScrollTo(e, "techstack")}
+        >
           Tech Stack
-        </div>
-        <div className='header_option'>
-          Projects
-        </div>
-        <div className='header_option'>
+        </a>
+        <a
+          href="#experiences"
+          className="header_option"
+          onClick={(e) => handleScrollTo(e, "experiences")}
+        >
+          Experiences
+        </a>
+        <div className="header_option">Projects</div>
+        <a
+          href="#contact"
+          className="footer_option"
+          onClick={(e) => handleScrollTo(e, "contact")}
+        >
           Contact
-        </div>
-        <div className='header_option'>
-        <LightMode/>
-        </div>
+        </a>
       </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

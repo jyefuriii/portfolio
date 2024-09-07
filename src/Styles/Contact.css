@@ -1,0 +1,63 @@
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  height: 60vh;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.contact_container > p {
+  color: #42446e;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: auto;
+  width: 70%;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.email-link {
+  font-family: sans-serif;
+  position: relative;
+  font-size: 50px;
+  width: 100%;
+  font-weight: bold;
+  background: -webkit-linear-gradient(45deg, #9845e8, #33d2ff, #dd5789);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: blink 0.5s step-end infinite;
+}
+
+.email-link::after {
+  content: ""; /* Add an empty content to create the underline effect */
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust this value based on your preference */
+  height: 2px; /* Adjust the thickness of the underline */
+  width: 100%;
+  background: -webkit-linear-gradient(45deg, #9845e8, #33d2ff, #dd5789);
+  transform: scaleX(0); /* Initially hide the underline */
+  transform-origin: bottom right; /* Ensure it animates from right to left */
+  transition: transform 1s ease; /* Smooth transition for the underline effect */
+}
+
+.email-link:hover::after {
+  transform: scaleX(1); /* Show the underline on hover */
+  transform-origin: bottom left; /* Change origin to animate from left to right */
+}
