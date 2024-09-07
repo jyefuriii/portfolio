@@ -8,8 +8,8 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <Router>
-          <Header />
+    <Router basename={ProcessingInstruction.env.PUBLIC_URL}>
+      <Header />
       <div className="App">
         <Routes>
           <Route path="/" element={<Homepage />} />
