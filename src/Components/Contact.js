@@ -6,7 +6,7 @@ const Contact = () => {
     <div>
       <div className="contact_container">
         <p>
-          For any question, please email me at:
+          For any questions or opportunities, please email me:
         </p>
         <div className="contact-info">
           <a href="mailto:jeffrey.t.fabella@gmail.com" className="email-link">

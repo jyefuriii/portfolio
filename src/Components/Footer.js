@@ -7,15 +7,31 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 function Footer() {
   const handleScrollTo = (e, targetId) => {
     e.preventDefault(); // Prevent default anchor behavior
-    document.getElementById(targetId).scrollIntoView({
-      behavior: "smooth", // Smooth scrolling
-      block: "start", // Align to the top of the view
+
+    const element = document.getElementById(targetId);
+    const headerOffset = 100; // Adjust this to your desired offset
+
+    // Get the position of the element relative to the top of the document
+    const elementPosition =
+      element.getBoundingClientRect().top + window.scrollY;
+    const offsetPosition = elementPosition - headerOffset;
+
+    // Scroll to the adjusted position smoothly
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth",
+    });
+  };
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scrolling effect
     });
   };
   return (
     <div className="footer">
       <div className="footer_contacts">
-        <div>
+        <div onClick={scrollToTop}>
           <img
             className="footer_logo"
             style={{ color: "black" }}
@@ -26,16 +42,28 @@ function Footer() {
         <div className="footer_contactDetails">
           <div className="footer_socials">
             <span>
-              <GitHubIcon
-                className="footer_socialIcons"
-                style={{ width: "80px", height: "30px" }}
-              />
+              <a
+                href="https://github.com/jyefuriii" // Replace with your GitHub URL
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GitHubIcon
+                  className="footer_socialIcons"
+                  style={{ width: "80px", height: "30px" }}
+                />
+              </a>
             </span>
             <span>
-              <LinkedInIcon
-                className="footer_socialIcons"
-                style={{ width: "30px", height: "30px" }}
-              />
+              <a
+                href="https://www.linkedin.com/in/jeffrey-fabella" // Replace with your LinkedIn URL
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkedInIcon
+                  className="footer_socialIcons"
+                  style={{ width: "30px", height: "30px" }}
+                />
+              </a>
             </span>
           </div>
         </div>
@@ -43,7 +71,7 @@ function Footer() {
       <div className="footer_line"></div>
       <div className="footer_content">
         <div className="footer_nav">
-          <Link to="/" className="footer_option">
+          <Link to="/" className="footer_option" onClick={scrollToTop}>
             Home
           </Link>
           <a
