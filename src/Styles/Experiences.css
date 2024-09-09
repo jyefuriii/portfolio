@@ -7,10 +7,7 @@
   padding: 5rem;
   padding-bottom: 2rem;
   background-color: #f4f4f4;
-<<<<<<< HEAD
   position: relative; /* Make sure positioning context is set */
-=======
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
 }
 
 .experience_heading1 {
@@ -35,28 +32,18 @@
   padding-bottom: 60px;
 }
 .experiences > span {
-<<<<<<< HEAD
   font-weight: bold;
   font-size: 20px;
   text-align: center; /* Center text */
   background-color: #f4f4f4; /* Match the background */
   padding: 0 1rem; /* Optional: padding for spacing */
   margin-bottom: 2rem; /* Space between span and heading */
-=======
-  margin-left: -1045px;
-  margin-bottom: 3rem;
-  font-weight: bold;
-  text-align: left;
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
 }
 .container {
   display: flex;
   align-items: flex-start;
   align-content: flex-start;
-<<<<<<< HEAD
   margin-top: 3rem;
-=======
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
   margin-bottom: 5rem;
 }
 
@@ -91,7 +78,6 @@
   color: #fff;
 }
 .content {
-<<<<<<< HEAD
   padding-left: 2rem;
   flex: 1;
   background-color: #f4f4f4;
@@ -111,18 +97,6 @@
   transition: max-height 0.3s ease-in-out; /* Optional: smooth transition effect */
 }
 
-=======
-  padding-left: 5rem;
-  flex: 1;
-  background-color: #f4f4f4;
-  overflow-y: auto;
-}
-
-.content div {
-  font-size: 18px;
-  width: 100%;
-}
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
 .content ul {
   list-style-type: disc;
   text-align: left;
@@ -174,7 +148,6 @@ content_item {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-<<<<<<< HEAD
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .container {
@@ -188,9 +161,7 @@ content_item {
   }
 
   .content {
-    padding: 1rem;
+    padding: 0.2rem;
     width: 100%; /* Full width on small screens */
   }
 }
-=======
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98

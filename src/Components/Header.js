@@ -9,6 +9,13 @@ function Header() {
       behavior: "smooth", // Smooth scrolling
       block: "start", // Align to the top of the view
     });
+
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // Smooth scroll to the top
+      });
+    };
   };
   return (
     <div className="header">

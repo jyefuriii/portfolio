@@ -2,18 +2,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-<<<<<<< HEAD
   justify-content: space-between;
   width: 100%;
   height: 120px;
   background: #fff;
-=======
-  align-content: center;
-  width: 100%;
-  height: 120px;
-  background: #fff;
-  justify-content: space-between;
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
   padding-left: 5rem;
   padding-right: 5rem;
   padding-bottom: 5px;
@@ -23,7 +15,6 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD
 /* Adjusting logo margins */
 .header_logo {
   margin-bottom: 10px;
@@ -108,18 +99,3 @@
     margin: 5px;
   }
 }
-=======
-.header_logo{
-    margin-bottom: 10px;
-}
-.header_nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 600px;
-  justify-content: space-between;
-  color: #666;
-  font-size: medium, 20px;
-  font-family: sans-serif;
-}
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98

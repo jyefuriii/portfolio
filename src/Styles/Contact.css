@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 /* Main container for the contact section */
-=======
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
 .contact_container {
   display: flex;
   flex-direction: column;
@@ -15,21 +12,13 @@
   height: 60vh;
 }
 
-<<<<<<< HEAD
 /* Styling for the paragraph */
-=======
-h2 {
-  margin-bottom: 20px;
-}
-
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
 .contact_container > p {
   color: #42446e;
   align-items: center;
   align-content: center;
   text-align: center;
   font-family: sans-serif;
-<<<<<<< HEAD
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
@@ -38,32 +27,15 @@ h2 {
 }
 
 /* Contact info container */
-=======
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: auto;
-  width: 70%;
-}
-
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
 .contact-info {
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
 /* Styling for the email link */
 .email-link {
   font-family: sans-serif;
   position: relative;
   font-size: 2rem;
-=======
-.email-link {
-  font-family: sans-serif;
-  position: relative;
-  font-size: 50px;
-  width: 100%;
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
   font-weight: bold;
   background: -webkit-linear-gradient(45deg, #9845e8, #33d2ff, #dd5789);
   background-clip: text;
@@ -71,10 +43,7 @@ h2 {
   animation: blink 0.5s step-end infinite;
 }
 
-<<<<<<< HEAD
 /* Hover effect for the email link */
-=======
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
 .email-link::after {
   content: ""; /* Add an empty content to create the underline effect */
   position: absolute;
@@ -88,15 +57,11 @@ h2 {
   transition: transform 1s ease; /* Smooth transition for the underline effect */
 }
 
-<<<<<<< HEAD
 /* Show the underline on hover */
-=======
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
 .email-link:hover::after {
   transform: scaleX(1); /* Show the underline on hover */
   transform-origin: bottom left; /* Change origin to animate from left to right */
 }
-<<<<<<< HEAD
 
 /* Responsive styles for smaller devices */
 @media (max-width: 1200px) {
@@ -142,5 +107,3 @@ h2 {
     font-size: 1rem;
   }
 }
-=======
->>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
