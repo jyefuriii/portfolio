@@ -53,7 +53,7 @@ function Header() {
         >
           Experiences
         </a>
-        <div className="header_option">Projects</div>
+        {/*<div className="header_option">Projects</div>*/}
         <a
           href="#contact"
           className="footer_option"

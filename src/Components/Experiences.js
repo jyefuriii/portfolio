@@ -110,7 +110,7 @@ function Experiences() {
             <strong>Key Achievements:</strong>
             <ul>
               <li>
-                Managed and completed projects: SignSecure v1 & 2, Supreme Court Document
+                Managed and completed projects: SignSecure v1 & v2, Supreme Court Document
                 Management System, ForMA, UCheck.
               </li>
               <li>

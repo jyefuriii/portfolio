@@ -88,7 +88,7 @@ function Footer() {
           >
             Experiences
           </a>
-          <div className="footer_option">Projects</div>
+          {/*<div className="footer_option">Projects</div>*/}
           <a
             href="#contact"
             className="footer_option"
