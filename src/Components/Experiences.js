@@ -16,49 +16,130 @@ function Experiences() {
         <span className="content_address">Makati City, Metro Manila</span>
         <ul>
           <li>
-            Create and implement Project Management standards for managing new
-            application projects at UNAWA, ensuring consistency and efficiency.
+            <strong>Project Management:</strong>
+            <ul>
+              <li>
+                Collaborated closely with CTO, developers, product designers,
+                and operations team.
+              </li>
+              <li>
+                Planned, executed, and finalized projects adhering to strict
+                deadlines and budgets.
+              </li>
+              <li>
+                Managed resources, schedules, and adhered to SDLC guidelines and
+                stage gate quality control.
+              </li>
+              <li>
+                Developed detailed project schedules and work plans, regularly
+                adjusting as necessary.
+              </li>
+              <li>
+                Provided consistent project updates to stakeholders on
+                strategies, adjustments, and progress.
+              </li>
+              <li>
+                Facilitated project reviews and contributed to process
+                improvement initiatives for efficient delivery.
+              </li>
+            </ul>
           </li>
+
           <li>
-            Oversee Project Planning, Estimation, Risk Management, Project
-            Control, and Visibility, ensuring smooth project execution and
-            timely delivery.
+            <strong>Documentation:</strong>
+            <ul>
+              <li>
+                Documented project requirements, communicated needs and issues
+                clearly to stakeholders.
+              </li>
+              <li>
+                Created project management standards and detailed documentation
+                for new applications.
+              </li>
+              <li>
+                Ensured consistent reporting on project updates, challenges, and
+                technical recommendations.
+              </li>
+            </ul>
           </li>
+
           <li>
-            Analyze new projects to determine requirements, document them, and
-            resolve any product-related issues to meet stakeholder needs.
+            <strong>Database Administration (DBA):</strong>
+            <ul>
+              <li>
+                Managed relational and NoSQL databases (MongoDB, Firebase, and
+                others).
+              </li>
+              <li>
+                Administered cloud-based databases through Navicat, Google Cloud
+                Platform (GCP) Console, and AWS Console.
+              </li>
+              <li>
+                Ensured scalability, security, and optimal performance of
+                software solutions for end-users.
+              </li>
+              <li>
+                Expanded software capabilities to meet evolving customer needs.
+              </li>
+            </ul>
           </li>
+
           <li>
-            Organize and facilitate project reviews, ensuring regular feedback
-            loops and keeping all team members aligned.
+            <strong>Client Support & Issue Resolution:</strong>
+            <ul>
+              <li>
+                Organized and facilitated issue resolution, handling
+                product-related concerns promptly.
+              </li>
+              <li>
+                Managed workflow and production issues, ensuring timely
+                resolution.
+              </li>
+              <li>
+                Provided quality assurance for projects, performing inspections
+                and adhering to safety regulations.
+              </li>
+              <li>
+                Engaged in regular client communication to align with product
+                requirements and updates.
+              </li>
+            </ul>
           </li>
+
           <li>
-            Develop and manage detailed project schedules and work plans, making
-            necessary adjustments to stay on track with goals and timelines.
+            <strong>Key Achievements:</strong>
+            <ul>
+              <li>
+                Managed and completed projects: SignSecure v1 & 2, Supreme Court Document
+                Management System, ForMA, UCheck.
+              </li>
+              <li>
+                Delivered successful project outcomes within scope, schedule,
+                and budget constraints.
+              </li>
+            </ul>
           </li>
+
           <li>
-            Utilize industry best practices, techniques, and standards
-            throughout project execution to optimize outcomes.
-          </li>
-          <li>
-            Provide consistent project updates to stakeholders, communicating
-            strategy, adjustments, progress, and risks in a clear and timely
-            manner.
-          </li>
-          <li>
-            Coordinate and handle Quality Assurance for assigned projects by
-            preparing policies, performing inspections, identifying issues, and
-            ensuring compliance with standards and safety regulations.
-          </li>
-          <li>
-            Ensure the scalability, performance, and stability of software
-            solutions, writing necessary tests and expanding software to meet
-            evolving customer and stakeholder needs.
-          </li>
-          <li>
-            Use automated tools and statistical methods to analyze data,
-            identify patterns, and interpret trends for better diagnosis,
-            decision-making, and prediction in project outcomes.
+            <strong>Additional Tools & Practices:</strong>
+            <ul>
+              <li>
+                Used project management tools like Trello, Jira, ClickUp, and
+                Kanban.
+              </li>
+              <li>
+                Created screenflows and performed design adjustments using
+                Figma.
+              </li>
+              <li>
+                Leveraged automated tools for data extraction and analysis,
+                identifying trends in complex data.
+              </li>
+              <li>
+                Performed quality tests, wrote code tests for compatibility, and
+                resolved technical challenges.
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -95,7 +176,7 @@ function Experiences() {
             deadlines and maintain project schedules.
           </li>
           <li>
-            Key Achievements:
+            <strong>Key Achievements:</strong>
             <ul>
               <li>
                 Working on a free to play arcade game application named Pachi+,
@@ -141,7 +222,7 @@ function Experiences() {
             adhere to deadlines and uphold project schedules.
           </li>
           <li>
-            Key Achievements:
+            <strong>Key Achievements:</strong>
             <ul>
               <li>
                 Successfully completed a website project for RACEHUB PH, an

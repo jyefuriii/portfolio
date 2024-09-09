@@ -80,10 +80,16 @@
   overflow-y: auto;
 }
 
+/* Container with scrollable content */
 .content div {
-  font-size: 18px;
+  font-size: 17px;
   width: 100%;
+  max-height: 420px; /* Adjust this value as needed */
+  overflow-y: auto; /* Enables vertical scrolling */
+  padding-right: 10px;
+  transition: max-height 0.3s ease-in-out; /* Optional: smooth transition effect */
 }
+
 .content ul {
   list-style-type: disc;
   text-align: left;
