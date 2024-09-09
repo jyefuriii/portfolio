@@ -5,17 +5,26 @@ import "../Styles/Header.css";
 function Header() {
   const handleScrollTo = (e, targetId) => {
     e.preventDefault(); // Prevent default anchor behavior
-    document.getElementById(targetId).scrollIntoView({
-      behavior: "smooth", // Smooth scrolling
-      block: "start", // Align to the top of the view
-    });
 
-    const scrollToTop = () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth", // Smooth scroll to the top
-      });
-    };
+    const element = document.getElementById(targetId);
+    const headerOffset = 100; // Adjust this to your desired offset
+
+    // Get the position of the element relative to the top of the document
+    const elementPosition =
+      element.getBoundingClientRect().top + window.scrollY;
+    const offsetPosition = elementPosition - headerOffset;
+
+    // Scroll to the adjusted position smoothly
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth",
+    });
+  };
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scrolling effect
+    });
   };
   return (
     <div className="header">
