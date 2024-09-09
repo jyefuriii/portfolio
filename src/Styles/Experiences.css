@@ -7,6 +7,7 @@
   padding: 5rem;
   padding-bottom: 2rem;
   background-color: #f4f4f4;
+  position: relative; /* Make sure positioning context is set */
 }
 
 .experience_heading1 {
@@ -31,15 +32,18 @@
   padding-bottom: 60px;
 }
 .experiences > span {
-  margin-left: -1045px;
-  margin-bottom: 3rem;
   font-weight: bold;
-  text-align: left;
+  font-size: 20px;
+  text-align: center; /* Center text */
+  background-color: #f4f4f4; /* Match the background */
+  padding: 0 1rem; /* Optional: padding for spacing */
+  margin-bottom: 2rem; /* Space between span and heading */
 }
 .container {
   display: flex;
   align-items: flex-start;
   align-content: flex-start;
+  margin-top: 3rem;
   margin-bottom: 5rem;
 }
 
@@ -74,10 +78,12 @@
   color: #fff;
 }
 .content {
-  padding-left: 5rem;
+  padding-left: 2rem;
   flex: 1;
   background-color: #f4f4f4;
   overflow-y: auto;
+  position: relative; /* Add relative positioning to manage top content visibility */
+  top: 0; /* Make sure the content starts from the top */
 }
 
 /* Container with scrollable content */
@@ -141,4 +147,21 @@ content_item {
   color: #1f26b7;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack sidebar and content vertically */
+  }
+
+  .sidebar {
+    border-left: none;
+    border-bottom: 1.5px solid #000; /* Add bottom border for vertical layout */
+    width: 100%; /* Full width on small screens */
+  }
+
+  .content {
+    padding: 1rem;
+    width: 100%; /* Full width on small screens */
+  }
 }

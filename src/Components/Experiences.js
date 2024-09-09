@@ -110,8 +110,8 @@ function Experiences() {
             <strong>Key Achievements:</strong>
             <ul>
               <li>
-                Managed and completed projects: SignSecure v1 & v2, Supreme Court Document
-                Management System, ForMA, UCheck.
+                Managed and completed projects: SignSecure v1 & v2, Supreme
+                Court Document Management System, ForMA, UCheck.
               </li>
               <li>
                 Delivered successful project outcomes within scope, schedule,
@@ -148,7 +148,7 @@ function Experiences() {
       <div className="content_item">
         <div className="content_details">
           <span className="content_role">
-            IT Project Manager / Database Admin / QA Specialist
+            IT Project Manager / DB Admin / QA Specialist
           </span>
           <span className="content_date">March 2021 - Present</span>
         </div>
@@ -298,7 +298,7 @@ function Experiences() {
       <div className="content_item">
         <div className="content_details">
           <span className="content_role">Information Systems (Graduate)</span>
-          <span className="content_date">March 2017</span>
+          <span className="content_date">June 2013 - March 2017</span>
         </div>
         <span className="content_address">Virac, Catanduanes</span>
         <ul>

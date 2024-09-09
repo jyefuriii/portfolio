@@ -49,7 +49,7 @@ function Footer() {
               >
                 <GitHubIcon
                   className="footer_socialIcons"
-                  style={{ width: "80px", height: "30px" }}
+                  style={{ width: "30px", height: "30px" }}
                 />
               </a>
             </span>
