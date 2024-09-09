@@ -7,6 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 function Footer() {
   const handleScrollTo = (e, targetId) => {
     e.preventDefault(); // Prevent default anchor behavior
+<<<<<<< HEAD
 
     const element = document.getElementById(targetId);
     const headerOffset = 100; // Adjust this to your desired offset
@@ -26,12 +27,21 @@ function Footer() {
     window.scrollTo({
       top: 0,
       behavior: "smooth", // Smooth scrolling effect
+=======
+    document.getElementById(targetId).scrollIntoView({
+      behavior: "smooth", // Smooth scrolling
+      block: "start", // Align to the top of the view
+>>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
     });
   };
   return (
     <div className="footer">
       <div className="footer_contacts">
+<<<<<<< HEAD
         <div onClick={scrollToTop}>
+=======
+        <div>
+>>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
           <img
             className="footer_logo"
             style={{ color: "black" }}
@@ -42,6 +52,7 @@ function Footer() {
         <div className="footer_contactDetails">
           <div className="footer_socials">
             <span>
+<<<<<<< HEAD
               <a
                 href="https://github.com/jyefuriii" // Replace with your GitHub URL
                 target="_blank"
@@ -64,6 +75,18 @@ function Footer() {
                   style={{ width: "30px", height: "30px" }}
                 />
               </a>
+=======
+              <GitHubIcon
+                className="footer_socialIcons"
+                style={{ width: "80px", height: "30px" }}
+              />
+            </span>
+            <span>
+              <LinkedInIcon
+                className="footer_socialIcons"
+                style={{ width: "30px", height: "30px" }}
+              />
+>>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
             </span>
           </div>
         </div>
@@ -71,7 +94,11 @@ function Footer() {
       <div className="footer_line"></div>
       <div className="footer_content">
         <div className="footer_nav">
+<<<<<<< HEAD
           <Link to="/" className="footer_option" onClick={scrollToTop}>
+=======
+          <Link to="/" className="footer_option">
+>>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
             Home
           </Link>
           <a
@@ -88,7 +115,11 @@ function Footer() {
           >
             Experiences
           </a>
+<<<<<<< HEAD
           {/*<div className="footer_option">Projects</div>*/}
+=======
+          <div className="footer_option">Projects</div>
+>>>>>>> 27cbeb64d2a4b40b9e3a82cb4a6426a27545ee98
           <a
             href="#contact"
             className="footer_option"
