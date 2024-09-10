@@ -60,6 +60,21 @@ function Experiences() {
             identify patterns, and interpret trends for better diagnosis,
             decision-making, and prediction in project outcomes.
           </li>
+          <li>
+            Key Achievements:
+            <ul>
+              <li>
+                Managed and completed projects:
+                <ul>
+                  <li>SignSecure v1.0,</li>
+                  <li>SignSecure v2.0,</li>
+                  <li>Supreme Court Document Management System,</li>
+                  <li>Forms Management and Automation (ForMA),</li>
+                  <li>UCheck AML Solutions.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     ),
