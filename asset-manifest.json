@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "https://jyefuriii.github.io/portfolio/static/css/main.f323de23.css",
-    "main.js": "https://jyefuriii.github.io/portfolio/static/js/main.03159b5a.js",
-    "static/js/787.7da95b79.chunk.js": "https://jyefuriii.github.io/portfolio/static/js/787.7da95b79.chunk.js",
-    "static/media/navicat.png": "https://jyefuriii.github.io/portfolio/static/media/navicat.f5d34155f0baf36cd46c.png",
-    "static/media/profile_photo1.jpg": "https://jyefuriii.github.io/portfolio/static/media/profile_photo1.2ca8bc88a46097501fd3.jpg",
-    "static/media/vscode.256x256.png": "https://jyefuriii.github.io/portfolio/static/media/vscode.256x256.04631261bfb490e57d5b.png",
-    "static/media/mongodb-original-wordmark.251x256.png": "https://jyefuriii.github.io/portfolio/static/media/mongodb-original-wordmark.251x256.ccc8124fde9058585f51.png",
-    "static/media/reactjs.256x228.png": "https://jyefuriii.github.io/portfolio/static/media/reactjs.256x228.4088f2427b58a73e5208.png",
-    "static/media/firebase.187x256.png": "https://jyefuriii.github.io/portfolio/static/media/firebase.187x256.fc9a7d2db2150ba3410d.png",
-    "index.html": "https://jyefuriii.github.io/portfolio/index.html",
-    "main.f323de23.css.map": "https://jyefuriii.github.io/portfolio/static/css/main.f323de23.css.map",
-    "main.03159b5a.js.map": "https://jyefuriii.github.io/portfolio/static/js/main.03159b5a.js.map",
-    "787.7da95b79.chunk.js.map": "https://jyefuriii.github.io/portfolio/static/js/787.7da95b79.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.f323de23.css",
+    "main.js": "/portfolio/static/js/main.faee179f.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/navicat.png": "/portfolio/static/media/navicat.f5d34155f0baf36cd46c.png",
+    "static/media/profile_photo1.jpg": "/portfolio/static/media/profile_photo1.2ca8bc88a46097501fd3.jpg",
+    "static/media/vscode.256x256.png": "/portfolio/static/media/vscode.256x256.04631261bfb490e57d5b.png",
+    "static/media/mongodb-original-wordmark.251x256.png": "/portfolio/static/media/mongodb-original-wordmark.251x256.ccc8124fde9058585f51.png",
+    "static/media/reactjs.256x228.png": "/portfolio/static/media/reactjs.256x228.4088f2427b58a73e5208.png",
+    "static/media/firebase.187x256.png": "/portfolio/static/media/firebase.187x256.fc9a7d2db2150ba3410d.png",
+    "index.html": "/portfolio/index.html",
+    "main.f323de23.css.map": "/portfolio/static/css/main.f323de23.css.map",
+    "main.faee179f.js.map": "/portfolio/static/js/main.faee179f.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f323de23.css",
-    "static/js/main.03159b5a.js"
+    "static/js/main.faee179f.js"
   ]
 }
