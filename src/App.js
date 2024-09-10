@@ -7,13 +7,12 @@ import Homepage from "./Components/Homepage";
 import Footer from "./Components/Footer";
 
 function App() {
-  const baseUrl = process.env.PUBLIC_URL;
 
   return (
     /*
     <Router>
     */
-    <Router basename={baseUrl}>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <div className="App">
         <Routes>
