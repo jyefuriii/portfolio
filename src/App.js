@@ -9,9 +9,9 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     /*
-    <Router basename={process.env.PUBLIC_URL}>
-    */
     <Router>
+    */
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <div className="App">
         <Routes>
