@@ -1,0 +1,303 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+}
+
+/* Default Layout */
+.homepage1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1080px;
+  color: #666;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-top: 50px;
+}
+
+.homepage1_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+.greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 18px;
+  color: #666;
+  padding-top: 50px;
+  position: relative; /* This will help position the .name element within .greeting */
+  padding-bottom: 25px;
+}
+
+.name {
+  font-family: sans-serif;
+  font-size: 96px; /* Adjust size as needed */
+  min-width: 300px; /* Fixed minimum width */
+  height: 120px; /* Fixed height */
+  font-weight: bold;
+  background: -webkit-linear-gradient(45deg, #9845e8, #33d2ff, #dd5789);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: blink 0.5s step-end infinite;
+  position: relative; /* Make sure it's relative to the .greeting container */
+  margin-top: 10px; /* Space between "Hey, I'm" and the name */
+}
+
+.profile_photo {
+  height: 252px;
+  width: 252px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #9845e8, #33d2ff, #dd5789) border-box;
+  border: 9px solid transparent;
+  margin-bottom: 40px;
+}
+
+.homepage1_description {
+  color: #666;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+.social_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 16px;
+  justify-content: flex-start;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.social_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff; /* White background */
+  border: 4px solid transparent; /* Transparent border for gradient */
+  border-image: linear-gradient(45deg, #9845e8, #33d2ff, #dd5789) 1; /* Gradient border */
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 0;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 200px;
+}
+
+.social_button:hover {
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.social_mediaIcons {
+  display: flex;
+  align-items: center;
+  color: #1a1a1a;
+}
+
+.social_icons {
+  padding-right: 8px;
+}
+
+.homepage2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #666;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.techstack_heading1 {
+  color: #42446e;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.techstack_heading3 {
+  color: var(--dark-content, #666);
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.techstack_icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center; /* Center icons */
+  padding-bottom: 50px;
+}
+
+.techstack {
+  max-width: 90px; /* Adjust max-width to fit within its container */
+  max-height: 80px; /* Adjust max-height to maintain aspect ratio */
+  object-fit: contain; /* Ensure images maintain their aspect ratio */
+}
+
+#experiences {
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .homepage1 {
+    width: 90%; /* Adjust width for slightly smaller screens */
+  }
+
+  .homepage1_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile_photo {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .homepage1 {
+    width: 85%;
+  }
+
+  .name {
+    font-size: 72px; /* Adjust font size for smaller screens */
+  }
+
+  .homepage1_description {
+    font-size: 18px; /* Smaller font size for readability */
+  }
+
+  .social_buttons {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .social_button {
+    width: 27%;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+  }
+
+  .techstack {
+    width: 80px;
+    height: 70px;
+  }
+  .techstack_icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center icons */
+    padding-bottom: 50px;
+ 
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage1 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .name {
+    font-size: 56px;
+  }
+
+  .homepage1_description {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .social_buttons {
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+  }
+  .social_button {
+   width:50%;
+   padding-bottom: 10px;
+  }
+.homepage2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: #666;
+ 
+}
+  .techstack {
+    width: 70px;
+    height: 55px;
+  }
+  .techstack_heading1 {
+  color: #42446e;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.techstack_heading3 {
+  color: var(--dark-content, #666);
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.techstack_icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center; /* Center icons */
+  padding-bottom: 50px;
+}
+
+
+
+}
+
+@media (max-width: 480px) {
+  .homepage1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .homepage1_description {
+    font-size: 18px;
+  }
+
+  .techstack {
+    width: 60px;
+    height: 50px;
+  }
+}

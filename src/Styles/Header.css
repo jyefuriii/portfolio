@@ -1,0 +1,137 @@
+/* General styles for header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header_logo img {
+  height: 50px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+.header_nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.header_option {
+  text-decoration: none;
+  color: #42446e;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+/* Hover effect on desktop */
+.header_option:hover {
+  color: #13b0f5;
+  transform: scale(1.05); /* Slightly scale up the text */
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hamburger to X Icon Transition */
+.hamburger.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg); /* Rotate the first line */
+  z-index: 1001;
+  opacity: 70%;
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0; /* Hide the middle line */
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg); /* Rotate the third line */
+  z-index: 1001;
+  opacity: 70%;
+}
+
+/* Responsive Full-Height Menu with Darker Semi-Transparent Background */
+.header_nav.open {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Disable scrolling when the menu is open */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header_nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  /* When the menu is open, show it */
+  .header_nav.open {
+    display: flex;
+  }
+
+  /* Mobile hover effect via focus and active states */
+  .header_nav.open .header_option:focus,
+  .header_nav.open .header_option:active {
+    color: #13b0f5;
+    background-color: rgb(228, 238, 247);
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.5rem 1rem;
+  }
+
+  .header_option {
+    font-size: 1rem;
+    z-index: 1002;
+  }
+
+  /* Mobile hover effect via focus and active states */
+  .header_nav.open .header_option:focus,
+  .header_nav.open .header_option:active {
+    color: #13b0f5;
+    background-color: rgb(228, 238, 247);
+  }
+}
