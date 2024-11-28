@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jyefuriii.github.io/react-portfolio/",
+  "homepage": "https://jyefuriii.github.io/portfolio/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -54,7 +54,7 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.22.11",
     "@svgr/webpack": "file:$@svgr/webpack",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.2.0",
     "react-scripts": "^5.0.1",
     "tailwindcss": "^3.3.3"
   },
