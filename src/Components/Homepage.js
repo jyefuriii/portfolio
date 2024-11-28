@@ -1,5 +1,6 @@
 import React from "react";
 import Experiences from "./Experiences";
+import Projects from "./Projects";
 import Contact from "./Contact";
 import TypingAnimation from "./Type";
 import "../Styles/Homepage.css";
@@ -31,8 +32,8 @@ function Homepage() {
           I'm a software developer based in Philippines. I'm interested in
           studying how companies work, build workflows based on their business
           need and I also enjoy creating things that live on the internet,
-          whether that be websites, applications, or anything in between. I'm
-          currently working as a full-time Project Manager at UNAWA Inc. and
+          whether that be websites, applications, or anything in between. I've
+          previously worked as a full-time Project Manager at UNAWA Inc. and
           I've manage to gain a decent amount of experience and valuable
           knowledge from all different kinds of fields throughout my
           projects/work.
@@ -181,6 +182,8 @@ function Homepage() {
       </div>
       <div id="experiences"></div>
       <Experiences />
+      <div id="projects"></div>
+      <Projects />
       <div id="contact"></div>
       <Contact />
     </div>

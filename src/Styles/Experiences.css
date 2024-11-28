@@ -1,167 +1,86 @@
-.experiences {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  width: 100%;
-  padding: 5rem;
-  padding-bottom: 2rem;
-  background-color: #f4f4f4;
-  position: relative; /* Make sure positioning context is set */
+.experiences-section {
+  background-color: #ffffff; /* White background for the entire section */
+  color: #333; /* Text color adjusted for readability */
+  padding: 50px 0; /* Top and bottom padding */
+  width: 100%; /* Ensure the section takes full width */
 }
 
-.experience_heading1 {
+.experiences-header h2 {
   color: #42446e;
   text-align: center;
   font-family: Poppins;
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
   line-height: 26px;
+  margin-bottom: 70px;
 }
 
-.experience_heading3 {
-  color: var(--dark-content, #666);
-  text-align: center;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  padding-top: 30px;
-  padding-bottom: 60px;
-}
-.experiences > span {
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center; /* Center text */
-  background-color: #f4f4f4; /* Match the background */
-  padding: 0 1rem; /* Optional: padding for spacing */
-  margin-bottom: 2rem; /* Space between span and heading */
-}
-.container {
-  display: flex;
-  align-items: flex-start;
-  align-content: flex-start;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
-}
-
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  background-color: #f4f4f4;
-  border-left: 1.5px solid #000;
-  height: 100%;
-}
-
-.sidebar ul {
-  list-style-type: none;
-}
-
-.sidebar ul li {
-  text-decoration: #000;
-  color: #000;
-  padding: 15px;
-  cursor: pointer;
-  text-align: left;
-}
-
-.sidebar ul li:hover {
-  background-color: #575757;
-  color: #fff;
-}
-
-.sidebar ul li.active {
-  background-color: #000;
-  font-weight: bold;
-  color: #fff;
-}
-.content {
-  padding-left: 2rem;
-  flex: 1;
-  background-color: #f4f4f4;
-  overflow-y: auto;
-  position: relative; /* Add relative positioning to manage top content visibility */
-  top: 0; /* Make sure the content starts from the top */
-}
-
-/* Container with scrollable content */
-.content div {
-  font-size: 17px;
+.experience-item {
+  background-color: #ffffff; /* White background for each card */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
   width: 100%;
-  max-height: 420px; /* Adjust this value as needed */
-  overflow-y: auto; /* Enables vertical scrolling */
-  padding-right: 10px;
-  padding-left: 5px;
-  transition: max-height 0.3s ease-in-out; /* Optional: smooth transition effect */
+}
+.experience-item:last-child {
+  margin-bottom: 0; /* No margin on the last item */
 }
 
-.content ul {
-  list-style-type: disc;
-  text-align: left;
-  margin-left: 15px;
-}
-
-.experiences_line {
-  border-top: 2px solid #a6a4a4;
-  width: 96%;
-  margin: 3rem;
+.experience-row {
   display: flex;
-  justify-content: center;
-}
-
-content_item {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: flex-start;
-  align-content: flex-start;
-  padding: 100px;
-  width: 50%;
-  position: relative;
-}
-.content_details {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  align-content: left;
-  text-align: left;
-  width: 100%;
+  margin-bottom: 10px;
 }
-.content_role {
+
+.experience-title h3 {
+  font-size: 1.2rem;
   font-weight: bold;
-  font-size: 24px;
 }
-.content_date {
-  font-size: 16px;
-  font-weight: light;
-}
-.content_address {
-  display: block;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: light;
-  text-align: left;
-  color: #1f26b7;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column; /* Stack sidebar and content vertically */
-  }
 
-  .sidebar {
-    border-left: none;
-    border-bottom: 1.5px solid #000; /* Add bottom border for vertical layout */
-    width: 100%; /* Full width on small screens */
-  }
+.experience-type span {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #38b6ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
 
-  .content {
-    padding: 0.2rem;
-    width: 100%; /* Full width on small screens */
-  }
+.company-location,
+.experience-duration {
+  display: flex;
+  align-items: center;
+}
+
+.company-location p,
+.experience-duration p {
+  font-size: 0.9rem;
+  margin: 0 10px;
+}
+
+.experience-icon {
+  font-size: 1rem;
+  color: #38b6ff; /* Icon color */
+}
+
+.company-location p {
+  display: inline-block;
+}
+
+.experience-duration p {
+  display: inline-block;
+}
+
+/* Long line separator below each experience item */
+.experience-separator {
+  border-top: 2px solid #e0e0e0; /* Line separator */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%; /* Ensure the separator spans the full width */
+}
+
+/* Ensure the full-width container */
+.experiences-section {
+  width: 100%; /* Full-width container */
+  margin: 0 auto; /* Center the content */
 }

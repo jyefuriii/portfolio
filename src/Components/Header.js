@@ -1,41 +1,61 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Header.css";
 
 function Header() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen); // Toggle the menu state
+  };
+
   const handleScrollTo = (e, targetId) => {
-    e.preventDefault(); // Prevent default anchor behavior
+    e.preventDefault();
 
     const element = document.getElementById(targetId);
-    const headerOffset = 100; // Adjust this to your desired offset
+    const headerOffset = 100;
 
-    // Get the position of the element relative to the top of the document
     const elementPosition =
       element.getBoundingClientRect().top + window.scrollY;
     const offsetPosition = elementPosition - headerOffset;
 
-    // Scroll to the adjusted position smoothly
     window.scrollTo({
       top: offsetPosition,
       behavior: "smooth",
     });
+
+    setMenuOpen(false); // Close menu after navigation
   };
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // Smooth scrolling effect
+      behavior: "smooth",
     });
+    setMenuOpen(false); // Close menu after scrolling to top
   };
+
   return (
-    <div className="header">
-      <div onClick={scrollToTop}>
+    <header className="header">
+      <div className="header_logo" onClick={scrollToTop}>
         <img
-          className="header_logo"
           src={require("/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/portfolio_logo.png")}
-          alt="header_logo"
+          alt="Portfolio Logo"
         />
       </div>
-      <div className="header_nav">
+
+      {/* Hamburger Menu */}
+      <div
+        className={`hamburger ${isMenuOpen ? "open" : ""}`}
+        onClick={toggleMenu}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      {/* Navigation Menu */}
+      <nav className={`header_nav ${isMenuOpen ? "open" : ""}`}>
         <Link to="/" className="header_option" onClick={scrollToTop}>
           Home
         </Link>
@@ -53,16 +73,22 @@ function Header() {
         >
           Experiences
         </a>
-        {/*<div className="header_option">Projects</div>*/}
+        <a
+          href="#projects"
+          className="header_option"
+          onClick={(e) => handleScrollTo(e, "projects")}
+        >
+          Projects
+        </a>
         <a
           href="#contact"
-          className="footer_option"
+          className="header_option"
           onClick={(e) => handleScrollTo(e, "contact")}
         >
           Contact
         </a>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 }
 
