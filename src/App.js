@@ -9,7 +9,7 @@ function App() {
   return (
     /* <Router>*/
 
-    <Router /*basename={process.env.PUBLIC_URL}*/>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <div className="App">
         <Routes>
