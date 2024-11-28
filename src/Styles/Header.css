@@ -1,5 +1,4 @@
-/* Header.css */
-
+/* General styles for header */
 .header {
   display: flex;
   align-items: center;
@@ -15,6 +14,7 @@
 .header_logo img {
   height: 50px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 /* Navigation */
@@ -26,14 +26,19 @@
 
 .header_option {
   text-decoration: none;
-  color: #333;
+  color: #42446e;
   font-weight: bold;
   font-size: 1rem;
-  transition: color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 5px 20px;
+  border-radius: 50px;
 }
 
+/* Hover effect on desktop */
 .header_option:hover {
-  color: #0070f3;
+  color: #13b0f5;
+  background-color: rgb(228, 238, 247);
+  transform: scale(1.05); /* Slightly scale up the text */
 }
 
 /* Hamburger Menu */
@@ -55,6 +60,8 @@
 /* Hamburger to X Icon Transition */
 .hamburger.open span:nth-child(1) {
   transform: translateY(8px) rotate(45deg); /* Rotate the first line */
+  z-index: 1001;
+  opacity: 70%;
 }
 
 .hamburger.open span:nth-child(2) {
@@ -63,6 +70,8 @@
 
 .hamburger.open span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg); /* Rotate the third line */
+  z-index: 1001;
+  opacity: 70%;
 }
 
 /* Responsive Full-Height Menu with Darker Semi-Transparent Background */
@@ -73,13 +82,18 @@
   top: 0;
   right: 0;
   width: 100%;
-  height: 100vh; /* Full height of the viewport */
-  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent background */
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
   align-items: center;
   justify-content: center;
   gap: 2rem;
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Disable scrolling when the menu is open */
+body.menu-open {
+  overflow: hidden;
 }
 
 /* Responsive Styles */
@@ -91,6 +105,18 @@
   .hamburger {
     display: flex;
   }
+
+  /* When the menu is open, show it */
+  .header_nav.open {
+    display: flex;
+  }
+
+  /* Mobile hover effect via focus and active states */
+  .header_nav.open .header_option:focus,
+  .header_nav.open .header_option:active {
+    color: #13b0f5;
+    background-color: rgb(228, 238, 247);
+  }
 }
 
 @media (max-width: 480px) {
@@ -100,17 +126,13 @@
 
   .header_option {
     font-size: 1rem;
+    z-index: 1002;
   }
-}
-/* Add this to your existing CSS */
 
-/* Hover color when the menu is open */
-.header_nav.open .header_option:hover {
-  color: #0070f3; /* Change this to whatever hover color you want */
-  background-color: rgba(
-    0,
-    112,
-    243,
-    0.1
-  ); /* Optional: Add a background color for better visibility */
+  /* Mobile hover effect via focus and active states */
+  .header_nav.open .header_option:focus,
+  .header_nav.open .header_option:active {
+    color: #13b0f5;
+    background-color: rgb(228, 238, 247);
+  }
 }

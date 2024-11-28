@@ -1,3 +1,29 @@
+/* Footer.css */
+
+/* Style for footer options (links) */
+.footer_option {
+  color: #42446e; /* Default text color */
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: color 0.3s, transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer_option:hover {
+  color: #13b0f5; /* Change to blue color on hover */
+  transform: scale(1.05); /* Slightly scale up the text */
+}
+
+/* Style for footer social icons */
+.footer_socialIcons {
+  transition: transform 0.3s ease;
+ }
+
+.footer_socialIcons:hover {
+  transform: scale(1.2); /* Scale the icons up on hover */
+}
+
+/* Existing footer styles (kept intact) */
 .footer {
   display: flex;
   flex-direction: column;
@@ -18,6 +44,10 @@
   align-content: center;
   width: 100%;
   color: #42446e;
+}
+
+.footer_contacts span:nth-child(1){
+    margin-right: 10px;
 }
 
 .footer_line {
@@ -69,7 +99,10 @@
     flex-direction: column;
     text-align: center;
   }
-
+ .footer_logo {
+    width: 80px;
+    margin-bottom: 15px;
+  }
   .footer_nav {
     flex-direction: column;
     text-align: center;
@@ -82,7 +115,9 @@
   .footer_subContent {
     text-align: center;
     margin-right: 0;
+    margin-top: 30px;
   }
+  
 }
 
 /* Smaller tablets and larger smartphones */
@@ -93,7 +128,8 @@
   }
 
   .footer_logo {
-    width: 100px;
+    width: 70px;
+    margin-bottom: 15px;
   }
 
   .footer_socialIcons {
@@ -120,7 +156,8 @@
   }
 
   .footer_logo {
-    width: 80px;
+    width: 70px;
+    margin-bottom: 15px;
   }
 
   .footer_socialIcons {

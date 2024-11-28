@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../Styles/Footer.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import footerLogo from "../Assets/footer_logo.png"
 
 function Footer() {
   const handleScrollTo = (e, targetId) => {
@@ -35,7 +36,7 @@ function Footer() {
           <img
             className="footer_logo"
             style={{ color: "black" }}
-            src={require("/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/footer_logo.png")}
+            src={footerLogo}
             alt="footer_logo"
           />
         </div>
@@ -43,7 +44,7 @@ function Footer() {
           <div className="footer_socials">
             <span>
               <a
-                href="https://github.com/jyefuriii" // Replace with your GitHub URL
+                href="https://github.com/jyefuriii"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -88,7 +89,14 @@ function Footer() {
           >
             Experiences
           </a>
-          {/*<div className="footer_option">Projects</div>*/}
+
+          <a
+            href="#projects"
+            className="footer_option"
+            onClick={(e) => handleScrollTo(e, "projects")}
+          >
+            Projects
+          </a>
           <a
             href="#contact"
             className="footer_option"

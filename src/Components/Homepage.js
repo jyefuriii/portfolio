@@ -1,7 +1,7 @@
 import React from "react";
 import Experiences from "./Experiences";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Projects from './Projects'
+import Contact from "./Contact"
 import TypingAnimation from "./Type";
 import "../Styles/Homepage.css";
 import EmailIcon from "@mui/icons-material/Email";
@@ -36,7 +36,7 @@ function Homepage() {
           previously worked as a full-time Project Manager at UNAWA Inc. and
           I've manage to gain a decent amount of experience and valuable
           knowledge from all different kinds of fields throughout my
-          projects/work.
+          projects and work.
         </span>
         <div className="social_buttons">
           {/* Email Button */}

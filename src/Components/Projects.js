@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Projects.css";
 import horizonCover from "../Assets/horizon-cover.png";
 import devFlowImage from "../Assets/devflow-cover.png";
+import pachiExchangeImage from "../Assets/pachiexchange-image.png";
 
 const projects = [
   {
@@ -39,11 +40,19 @@ const projects = [
     github: "https://github.com/jyefuriii/nextjs-devflow",
   },
   {
-    name: "PachiExchange",
+    name: "Pachi Exchange",
     description:
       "A rewards platform for the free-to-play arcade game Pachi+, allowing users to exchange points for various rewards.",
-    techStack: ["React", "Express", "MongoDB", "Bootstrap"],
-    image: "/images/pachiexchange.png",
+    techStack: [
+      "React",
+      "Express",
+      "Node.js",
+      "MongoDB",
+      "Bootstrap",
+      "Material UI",
+      "HTML & CSS",
+    ],
+    image: pachiExchangeImage,
     github: "https://github.com/jyefuriii/Pachi-Exchange",
   },
 ];

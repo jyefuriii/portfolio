@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Header.css";
+import porfolioLogo from "../Assets/portfolio_logo.png"
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -38,10 +39,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header_logo" onClick={scrollToTop}>
-        <img
-          src={require("/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/portfolio_logo.png")}
-          alt="Portfolio Logo"
-        />
+        <img src={porfolioLogo} alt="Portfolio Logo" />
       </div>
 
       {/* Hamburger Menu */}

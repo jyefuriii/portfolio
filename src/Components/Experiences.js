@@ -22,10 +22,14 @@ const Experiences = () => {
         </div>
         <div className="experience-row">
           <div className="company-location">
-            <BusinessIcon className="experience-icon" />
-            <p>UNAWA Inc.</p>
-            <LocationOnIcon className="experience-icon" />
-            <p>Makati City, Metro Manila</p>
+            <div>
+              <BusinessIcon className="experience-icon" />
+              <p>UNAWA Inc.</p>
+            </div>
+            <div>
+              <LocationOnIcon className="experience-icon" />
+              <p>Makati City, Metro Manila</p>
+            </div>
           </div>
           <div className="experience-duration">
             <CalendarMonthIcon className="experience-icon" />
@@ -38,7 +42,7 @@ const Experiences = () => {
       <div className="experience-item">
         <div className="experience-row">
           <div className="experience-title">
-            <h3>IT Project Manager / DB Admin / QA Specialist</h3>
+            <h3>IT Project Manager / Database Admin</h3>
           </div>
           <div className="experience-type">
             <span>Part-Time (Remote)</span>
@@ -46,10 +50,14 @@ const Experiences = () => {
         </div>
         <div className="experience-row">
           <div className="company-location">
-            <BusinessIcon className="experience-icon" />
-            <p>Global Application Producers</p>
-            <LocationOnIcon className="experience-icon" />
-            <p>Claremont, Australia</p>
+            <div>
+              <BusinessIcon className="experience-icon" />
+              <p>Global Application Producers</p>
+            </div>
+            <div>
+              <LocationOnIcon className="experience-icon" />
+              <p>Claremont, Australia</p>
+            </div>
           </div>
           <div className="experience-duration">
             <CalendarMonthIcon className="experience-icon" />
@@ -69,10 +77,14 @@ const Experiences = () => {
         </div>
         <div className="experience-row">
           <div className="company-location">
-            <BusinessIcon className="experience-icon" />
-            <p>RangerTech - TechSphere</p>
-            <LocationOnIcon className="experience-icon" />
-            <p>Pasig City, Metro Manila</p>
+            <div>
+              <BusinessIcon className="experience-icon" />
+              <p>RangerTech - TechSphere</p>
+            </div>
+            <div>
+              <LocationOnIcon className="experience-icon" />
+              <p>Pasig City, Metro Manila</p>
+            </div>
           </div>
           <div className="experience-duration">
             <CalendarMonthIcon className="experience-icon" />
@@ -92,10 +104,14 @@ const Experiences = () => {
         </div>
         <div className="experience-row">
           <div className="company-location">
-            <BusinessIcon className="experience-icon" />
-            <p>Accenture</p>
-            <LocationOnIcon className="experience-icon" />
-            <p>Quezon City, Metro Manila</p>
+            <div>
+              <BusinessIcon className="experience-icon" />
+              <p>Accenture</p>
+            </div>
+            <div>
+              <LocationOnIcon className="experience-icon" />
+              <p>Quezon City, Metro Manila</p>
+            </div>
           </div>
           <div className="experience-duration">
             <CalendarMonthIcon className="experience-icon" />
@@ -103,7 +119,9 @@ const Experiences = () => {
           </div>
         </div>
         <div className="experience-separator"></div> {/* Line separator */}
+        {/* Add more experiences as needed */}
       </div>
+      <div className="experiences-section"></div>
       <div className="experiences-header">
         <h2>Education</h2>
       </div>
@@ -118,11 +136,15 @@ const Experiences = () => {
           </div>
         </div>
         <div className="experience-row">
-          <div className="company-location">
+                  <div className="company-location">
+                      <div>
             <BusinessIcon className="experience-icon" />
             <p>Catanduanes State University</p>
+                      </div>
+                      <div>
             <LocationOnIcon className="experience-icon" />
             <p>Virac, Catanduanes</p>
+                      </div>
           </div>
           <div className="experience-duration">
             <CalendarMonthIcon className="experience-icon" />
@@ -131,8 +153,6 @@ const Experiences = () => {
         </div>
         <div className="experience-separator"></div> {/* Line separator */}
       </div>
-
-      {/* Add more experiences as needed */}
     </div>
   );
 };
