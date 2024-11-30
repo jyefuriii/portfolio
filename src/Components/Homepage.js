@@ -45,14 +45,16 @@ function Homepage() {
           />
         </div>
         <span className="homepage1_description">
-          I'm a software developer based in Philippines. I'm interested in
-          studying how companies work, build workflows based on their business
-          need and I also enjoy creating things that live on the internet,
-          whether that be websites, applications, or anything in between. I've
-          previously worked as a full-time Project Manager at UNAWA Inc. and
-          I've manage to gain a decent amount of experience and valuable
-          knowledge from all different kinds of fields throughout my projects
-          and work.
+          I’m a software developer based in the Philippines with a passion for
+          creating innovative digital solutions that solve real-world problems.
+          I specialize in developing web-based applications and websites that
+          are both functional and visually engaging, with a focus on crafting
+          seamless user experiences. My background includes working as a
+          full-time Project Manager at UNAWA Inc., where I honed my skills in
+          project planning, workflow optimization, and cross-functional
+          collaboration. These experiences have shaped my approach to software
+          development, allowing me to combine technical expertise with a strong
+          understanding of business needs to deliver impactful results.
         </span>
         <div className="social_buttons">
           {/* Email Button */}
