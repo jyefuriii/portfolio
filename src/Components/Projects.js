@@ -60,7 +60,14 @@ const projects = [
   },
 ];
 
-const ProjectCard = ({ name, description, techStack, image, github, siteUrl }) => (
+const ProjectCard = ({
+  name,
+  description,
+  techStack,
+  image,
+  github,
+  siteUrl,
+}) => (
   <div className="project-card">
     <img src={image} alt={name} className="project-image" />
     <div className="project-details">
@@ -73,22 +80,24 @@ const ProjectCard = ({ name, description, techStack, image, github, siteUrl }) =
           </span>
         ))}
       </div>
-      <a
-        href={github}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="github-link"
-      >
-        View GitHub Repo
-      </a>
-      <a
-        href={siteUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="github-link"
-      >
-        Live Site
-      </a>
+      <div className="projectLinks">
+        <a
+          href={github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          View GitHub Repo
+        </a>
+        <a
+          href={siteUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          Live Site
+        </a>
+      </div>
     </div>
   </div>
 );

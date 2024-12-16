@@ -41,15 +41,7 @@ function Header() {
       <div className="header_logo" onClick={scrollToTop}>
         <img className="header_logo" src={portfolioLogo} alt="header_logo" />
       </div>
-      <div className="header_nav">
-        <div className="header_option">Home</div>
-        <div className="header_option">About</div>
-        <div className="header_option">Tech Stack</div>
-        <div className="header_option">Projects</div>
-        <div className="header_option">Contact</div>
-      </div>
-
-      {/* Hamburger Menu */}
+        {/* Hamburger Menu */}
       <div
         className={`hamburger ${isMenuOpen ? "open" : ""}`}
         onClick={toggleMenu}

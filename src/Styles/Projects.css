@@ -90,6 +90,15 @@
   color: #0056c1;
 }
 
+   .projectLinks{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
 /* Small Screens */
 @media (max-width: 480px) {
   .projects-page {
@@ -111,6 +120,7 @@
   .project-description {
     font-size: 0.8rem;
   }
+
 }
 
 /* Large Screens */
@@ -142,4 +152,5 @@
   .github-link {
     font-size: 1rem;
   }
+
 }

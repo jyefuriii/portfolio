@@ -1,20 +1,9 @@
-<<<<<<< HEAD
 .homepage {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   background: #fff;
-=======
-.homepage{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    align-content: center;
-    width: 100%;
-    height:100%;
-    background:#fff;
->>>>>>> 9ee1d94 (Techstack and Experience portion)
 }
 
 /* Default Layout */
@@ -111,7 +100,6 @@
 }
 
 .social_mediaIcons {
-<<<<<<< HEAD
   display: flex;
   align-items: center;
   color: #1a1a1a;
@@ -310,15 +298,3 @@
     height: 50px;
   }
 }
-=======
-    background: #fff;
-    width: 96%;
-    padding:11px;
-    color: #1a1a1a;
-    border-radius: 2px;
-}
-
-.techstack_icons{
-    background:pink;
-}
->>>>>>> 9ee1d94 (Techstack and Experience portion)
