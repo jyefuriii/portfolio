@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Header.css";
-import porfolioLogo from "../Assets/portfolio_logo.png"
+import portfolioLogo from "../Assets/portfolio_logo.png";
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -37,33 +37,16 @@ function Header() {
   };
 
   return (
-<<<<<<< HEAD
-    <header className="header">
+    <div className="header">
       <div className="header_logo" onClick={scrollToTop}>
-        <img src={porfolioLogo} alt="Portfolio Logo" />
-=======
-    <div className='header'>
-      <img className='header_logo' src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/portfolio_logo.png')} alt='header_logo'/>
-      <div className='header_nav'>
-        <div className='header_option'>
-          Home
-        </div>
-        <div className='header_option'>
-          About
-        </div> 
-        <div className='header_option'>
-          Tech Stack
-        </div>
-        <div className='header_option'>
-          Projects
-        </div>
-        <div className='header_option'>
-          Contact
-        </div>
-        <div className='header_option'>
-        <LightMode/>
-        </div>
->>>>>>> 9ee1d94 (Techstack and Experience portion)
+        <img className="header_logo" src={portfolioLogo} alt="header_logo" />
+      </div>
+      <div className="header_nav">
+        <div className="header_option">Home</div>
+        <div className="header_option">About</div>
+        <div className="header_option">Tech Stack</div>
+        <div className="header_option">Projects</div>
+        <div className="header_option">Contact</div>
       </div>
 
       {/* Hamburger Menu */}
@@ -110,7 +93,7 @@ function Header() {
           Contact
         </a>
       </nav>
-    </header>
+    </div>
   );
 }
 
