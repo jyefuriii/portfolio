@@ -37,9 +37,33 @@ function Header() {
   };
 
   return (
+<<<<<<< HEAD
     <header className="header">
       <div className="header_logo" onClick={scrollToTop}>
         <img src={porfolioLogo} alt="Portfolio Logo" />
+=======
+    <div className='header'>
+      <img className='header_logo' src={require('/Users/jeffrey/Developer/react-portfolio/portfolio/src/Assets/portfolio_logo.png')} alt='header_logo'/>
+      <div className='header_nav'>
+        <div className='header_option'>
+          Home
+        </div>
+        <div className='header_option'>
+          About
+        </div> 
+        <div className='header_option'>
+          Tech Stack
+        </div>
+        <div className='header_option'>
+          Projects
+        </div>
+        <div className='header_option'>
+          Contact
+        </div>
+        <div className='header_option'>
+        <LightMode/>
+        </div>
+>>>>>>> 9ee1d94 (Techstack and Experience portion)
       </div>
 
       {/* Hamburger Menu */}
