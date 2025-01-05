@@ -1,10 +1,20 @@
 import React from "react";
 import "../Styles/Projects.css";
+import awwwardsCover from "../Assets/Awwwards.png";
 import horizonCover from "../Assets/horizon-cover.png";
 import devFlowImage from "../Assets/devflow-cover.png";
 import pachiExchangeImage from "../Assets/pachiexchange-image.png";
 
 const projects = [
+  {
+    name: "Awwwards Gaming Website",
+    description:
+      "A visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling capturing the essence of what makes an Awwwards winner.",
+    techStack: ["React", "Javascript", "Vite", "GSAP", "Tailwind CSS", "HTML & CSS"],
+    image: awwwardsCover,
+    github: "https://github.com/jyefuriii/Awwwards-Website",
+    siteUrl: "https://awwwards-gaming-website.vercel.app/",
+  },
   {
     name: "Horizon Bank",
     description:
