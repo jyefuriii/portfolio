@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://jyefuriii.github.io/portfolio/static/css/main.253ca380.css",
+    "main.css": "https://jyefuriii.github.io/portfolio/static/css/main.6e78f8e4.css",
     "main.js": "https://jyefuriii.github.io/portfolio/static/js/main.219d3f9a.js",
     "static/js/787.7da95b79.chunk.js": "https://jyefuriii.github.io/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Awwwards.png": "https://jyefuriii.github.io/portfolio/static/media/Awwwards.f54483c663c322c7e751.png",
@@ -14,12 +14,12 @@
     "static/media/reactjs.256x228.png": "https://jyefuriii.github.io/portfolio/static/media/reactjs.256x228.4088f2427b58a73e5208.png",
     "static/media/firebase.187x256.png": "https://jyefuriii.github.io/portfolio/static/media/firebase.187x256.fc9a7d2db2150ba3410d.png",
     "index.html": "https://jyefuriii.github.io/portfolio/index.html",
-    "main.253ca380.css.map": "https://jyefuriii.github.io/portfolio/static/css/main.253ca380.css.map",
+    "main.6e78f8e4.css.map": "https://jyefuriii.github.io/portfolio/static/css/main.6e78f8e4.css.map",
     "main.219d3f9a.js.map": "https://jyefuriii.github.io/portfolio/static/js/main.219d3f9a.js.map",
     "787.7da95b79.chunk.js.map": "https://jyefuriii.github.io/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.253ca380.css",
+    "static/css/main.6e78f8e4.css",
     "static/js/main.219d3f9a.js"
   ]
 }
