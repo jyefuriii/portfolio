@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "https://jyefuriii.github.io/portfolio/static/css/main.6e78f8e4.css",
-    "main.js": "https://jyefuriii.github.io/portfolio/static/js/main.219d3f9a.js",
+    "main.css": "https://jyefuriii.github.io/portfolio/static/css/main.6910679e.css",
+    "main.js": "https://jyefuriii.github.io/portfolio/static/js/main.24cdbbc6.js",
     "static/js/787.7da95b79.chunk.js": "https://jyefuriii.github.io/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Awwwards.png": "https://jyefuriii.github.io/portfolio/static/media/Awwwards.f54483c663c322c7e751.png",
+    "static/media/xora-cover.png": "https://jyefuriii.github.io/portfolio/static/media/xora-cover.379adfa33ff11929759c.png",
     "static/media/pachiexchange-image.png": "https://jyefuriii.github.io/portfolio/static/media/pachiexchange-image.e27faba9eb9f2fc58aba.png",
     "static/media/horizon-cover.png": "https://jyefuriii.github.io/portfolio/static/media/horizon-cover.64e989431e06bf3a41d2.png",
     "static/media/devflow-cover.png": "https://jyefuriii.github.io/portfolio/static/media/devflow-cover.70cadc108fc3a281f310.png",
@@ -14,12 +15,12 @@
     "static/media/reactjs.256x228.png": "https://jyefuriii.github.io/portfolio/static/media/reactjs.256x228.4088f2427b58a73e5208.png",
     "static/media/firebase.187x256.png": "https://jyefuriii.github.io/portfolio/static/media/firebase.187x256.fc9a7d2db2150ba3410d.png",
     "index.html": "https://jyefuriii.github.io/portfolio/index.html",
-    "main.6e78f8e4.css.map": "https://jyefuriii.github.io/portfolio/static/css/main.6e78f8e4.css.map",
-    "main.219d3f9a.js.map": "https://jyefuriii.github.io/portfolio/static/js/main.219d3f9a.js.map",
+    "main.6910679e.css.map": "https://jyefuriii.github.io/portfolio/static/css/main.6910679e.css.map",
+    "main.24cdbbc6.js.map": "https://jyefuriii.github.io/portfolio/static/js/main.24cdbbc6.js.map",
     "787.7da95b79.chunk.js.map": "https://jyefuriii.github.io/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e78f8e4.css",
-    "static/js/main.219d3f9a.js"
+    "static/css/main.6910679e.css",
+    "static/js/main.24cdbbc6.js"
   ]
 }
