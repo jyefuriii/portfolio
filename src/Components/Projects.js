@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/Projects.css";
 import awwwardsCover from "../Assets/Awwwards.png";
+import xoraCover from "../Assets/xora-cover.png";
 import horizonCover from "../Assets/horizon-cover.png";
 import devFlowImage from "../Assets/devflow-cover.png";
 import pachiExchangeImage from "../Assets/pachiexchange-image.png";
@@ -10,10 +11,26 @@ const projects = [
     name: "Awwwards Gaming Website",
     description:
       "A visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling capturing the essence of what makes an Awwwards winner.",
-    techStack: ["React", "Javascript", "Vite", "GSAP", "Tailwind CSS", "HTML & CSS"],
+    techStack: [
+      "React",
+      "Javascript",
+      "Vite",
+      "GSAP",
+      "Tailwind CSS",
+      "HTML & CSS",
+    ],
     image: awwwardsCover,
     github: "https://github.com/jyefuriii/Awwwards-Website",
     siteUrl: "https://awwwards-gaming-website.vercel.app/",
+  },
+  {
+    name: "Xora SaaS Website",
+    description:
+      "Xora is a SaaS website that exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+    techStack: ["React", "Javascript", "Vite", "Tailwind CSS", "HTML & CSS"],
+    image: xoraCover,
+    github: "https://github.com/jyefuriii/xora-website",
+    siteUrl: "https://xora-website-jyefuriii.vercel.app/",
   },
   {
     name: "Horizon Bank",
