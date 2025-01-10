@@ -10,7 +10,7 @@ function App() {
   return (
     /* <Router>*/
 
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/portfolio'>
       <Header />
       <div className="App">
         <Routes>
