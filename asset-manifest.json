@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://jyefuriii.github.io/portfolio/static/css/main.6910679e.css",
-    "main.js": "https://jyefuriii.github.io/portfolio/static/js/main.24cdbbc6.js",
+    "main.js": "https://jyefuriii.github.io/portfolio/static/js/main.a3100aaa.js",
     "static/js/787.7da95b79.chunk.js": "https://jyefuriii.github.io/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Awwwards.png": "https://jyefuriii.github.io/portfolio/static/media/Awwwards.f54483c663c322c7e751.png",
     "static/media/xora-cover.png": "https://jyefuriii.github.io/portfolio/static/media/xora-cover.379adfa33ff11929759c.png",
@@ -16,11 +16,11 @@
     "static/media/firebase.187x256.png": "https://jyefuriii.github.io/portfolio/static/media/firebase.187x256.fc9a7d2db2150ba3410d.png",
     "index.html": "https://jyefuriii.github.io/portfolio/index.html",
     "main.6910679e.css.map": "https://jyefuriii.github.io/portfolio/static/css/main.6910679e.css.map",
-    "main.24cdbbc6.js.map": "https://jyefuriii.github.io/portfolio/static/js/main.24cdbbc6.js.map",
+    "main.a3100aaa.js.map": "https://jyefuriii.github.io/portfolio/static/js/main.a3100aaa.js.map",
     "787.7da95b79.chunk.js.map": "https://jyefuriii.github.io/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6910679e.css",
-    "static/js/main.24cdbbc6.js"
+    "static/js/main.a3100aaa.js"
   ]
 }
