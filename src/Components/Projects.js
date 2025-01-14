@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Projects.css";
+import brainwaveCover from "../Assets/brainwave-cover.png";
 import awwwardsCover from "../Assets/Awwwards.png";
 import xoraCover from "../Assets/xora-cover.png";
 import horizonCover from "../Assets/horizon-cover.png";
@@ -7,6 +8,22 @@ import devFlowImage from "../Assets/devflow-cover.png";
 import pachiExchangeImage from "../Assets/pachiexchange-image.png";
 
 const projects = [
+  {
+    name: "Brainwave Website",
+    description:
+      "A modern website, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+    techStack: [
+      "React",
+      "Javascript",
+      "Vite",
+      "GSAP",
+      "Tailwind CSS",
+      "HTML & CSS",
+    ],
+    image: brainwaveCover,
+    github: "https://github.com/jyefuriii/brainwave",
+    siteUrl: "https://brainwave-jyefuriii.vercel.app/",
+  },
   {
     name: "Awwwards Gaming Website",
     description:
@@ -24,7 +41,7 @@ const projects = [
     siteUrl: "https://awwwards-gaming-website.vercel.app/",
   },
   {
-    name: "Xora SaaS Website",
+    name: "Xora Website",
     description:
       "Xora is a SaaS website that exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
     techStack: ["React", "Javascript", "Vite", "Tailwind CSS", "HTML & CSS"],
